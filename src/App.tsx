@@ -31,13 +31,13 @@ function App() {
     }, []);
 
     if (error) {
-        return <div className="font-bold">Oops. Something went wrong</div>;
+        return <div className="flex items-center justify-center h-screen text-5xl">Oops. Something went wrong</div>;
     }
 
     if (loading) {
         return (
-            <div className="flex items-center justify-center h-full">
-                Loading
+            <div className="flex items-center justify-center h-screen text-5xl">
+                Loading...
             </div>
         );
     }
