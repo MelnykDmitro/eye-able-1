@@ -19,6 +19,7 @@ specifiers:
   postcss: ^8.5.6
   react: ^19.1.1
   react-dom: ^19.1.1
+  react-is: ^19.1.1
   recharts: ^3.2.0
   tailwind-merge: ^3.3.1
   tailwindcss: ^4.1.13
@@ -36,7 +37,8 @@ dependencies:
   lucide-react: 0.544.0_react@19.1.1
   react: 19.1.1
   react-dom: 19.1.1_react@19.1.1
-  recharts: 3.2.0_nkq7v627axtuhipkslvmuv7xky
+  react-is: 19.1.1
+  recharts: 3.2.0_4mgncuqsqtkiaym5dfnp3px6ym
   tailwind-merge: 3.3.1
   tailwindcss-animate: 1.0.7_tailwindcss@4.1.13
 
@@ -2178,6 +2180,10 @@ packages:
       scheduler: 0.26.0
     dev: false
 
+  /react-is/19.1.1:
+    resolution: {integrity: sha512-tr41fA15Vn8p4X9ntI+yCyeGSf1TlYaY5vlTZfQmeLBrFo3psOPX6HhTDnFNL9uj3EhP0KAQ80cugCl4b4BERA==}
+    dev: false
+
   /react-redux/9.2.0_ub5zat2igr4diw6567ilm725ei:
     resolution: {integrity: sha512-ROY9fvHhwOD9ySfrF0wmvu//bKCQ6AeZZq1nJNtbDC+kk5DuSuNX/n6YWYF/SYy7bSba4D4FSz8DJeKY/S/r+g==}
     peerDependencies:
@@ -2206,7 +2212,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /recharts/3.2.0_nkq7v627axtuhipkslvmuv7xky:
+  /recharts/3.2.0_4mgncuqsqtkiaym5dfnp3px6ym:
     resolution: {integrity: sha512-fX0xCgNXo6mag9wz3oLuANR+dUQM4uIlTYBGTGq9CBRgW/8TZPzqPGYs5NTt8aENCf+i1CI8vqxT1py8L/5J2w==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -2222,6 +2228,7 @@ packages:
       immer: 10.1.3
       react: 19.1.1
       react-dom: 19.1.1_react@19.1.1
+      react-is: 19.1.1
       react-redux: 9.2.0_ub5zat2igr4diw6567ilm725ei
       reselect: 5.1.1
       tiny-invariant: 1.3.3
